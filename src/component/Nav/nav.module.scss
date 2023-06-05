@@ -1,0 +1,25 @@
+.nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--navIndex);
+    height: var(--navHeight);
+    background-color: white;
+    filter: var(--mediumShadow);
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    gap: 5px;
+
+    *{
+        margin: 0;
+    }
+
+    h1,h2,h3,h4,h5{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
